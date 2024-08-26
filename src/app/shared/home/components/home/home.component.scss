@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+h1 {
+  background: linear-gradient(10deg, #b380ff, #7af0ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #fff;
+  text-align: center;
+  text-shadow: linear-gradient(10deg, #b380ff, #7af0ff);
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+h2 {
+  background: linear-gradient(10deg, #b380ff, #7af0ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  text-align: center;
+}
+
+button {
+  background: linear-gradient(10deg, #b380ff, #7af0ff);
+  border: none;
+  color: #000;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+}
+
+#text-subtitle {
+  transition: background-color 0.3s ease;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+}
+#professional-experience {
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  cursor: pointer;
+}
+
+#img-professional-experience{
+  width: 400px;
+  height: 400px;
+}
+
+// .numbered-list {
+//   counter-reset: section;
+// }
+
+// .numbered-list p {
+//   counter-increment: section;
+//   position: relative;
+//   margin-left: 20px;
+// }
+
+// .numbered-list p::before {
+//   content: counter(section) ". ";
+//   position: absolute;
+//   left: -20px;
+//   font-weight: bold;
+// }
