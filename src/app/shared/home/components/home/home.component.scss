@@ -15,7 +15,16 @@ h1 {
   cursor: pointer;
 }
 
-h2 {
+// h2 {
+//   background: linear-gradient(10deg, #b380ff, #7af0ff);
+//   -webkit-background-clip: text;
+//   -webkit-text-fill-color: transparent;
+//   font-family: "Roboto", sans-serif;
+//   font-size: 2rem;
+//   text-align: center;
+// }
+
+#h2-professional-experience {
   background: linear-gradient(10deg, #b380ff, #7af0ff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -41,30 +50,39 @@ button {
   text-align: center;
   cursor: pointer;
 }
+
+#h2-skills-and-experience {
+  background: linear-gradient(10deg, #b380ff, #7af0ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  text-align: center;
+}
+
+#h2-experience-in-it-support {
+  background: black;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  text-align: center;
+}
+
 #professional-experience {
   font-family: "Roboto", sans-serif;
   color: #fff;
   cursor: pointer;
 }
 
-#img-professional-experience{
+#skills-and-experience {
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  cursor: pointer;
+}
+
+#img-professional-experience {
   width: 400px;
   height: 400px;
 }
 
-// .numbered-list {
-//   counter-reset: section;
-// }
-
-// .numbered-list p {
-//   counter-increment: section;
-//   position: relative;
-//   margin-left: 20px;
-// }
-
-// .numbered-list p::before {
-//   content: counter(section) ". ";
-//   position: absolute;
-//   left: -20px;
-//   font-weight: bold;
-// }
