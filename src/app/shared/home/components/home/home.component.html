@@ -3,8 +3,8 @@
   <div class="position-relative">
     <div class="img-fluid w-100" style="height: 400px; overflow: hidden;">
       <img
-        src="../../../../../assets/img/img_home/Banner-Perfil-Linkedin.png"
-        alt="Imagem de Homem"
+        src="../../../../../assets/img/img_infrastructure/Banner-Perfil-Linkedin.png"
+        alt="Imagem de infrastructurem"
         class="w-100 h-100 object-fit-cover"
       />
       <!-- Sobreposição Escura -->
@@ -51,7 +51,7 @@
       <div class="col-md-4 col-12 mb-3 d-flex justify-content-center">
         <img
           id="img-professional-experience"
-          src="assets/img/img_home/img_experience.jpg"
+          src="assets/img/img_infrastructure/img_experience.jpg"
           alt="Imagem da Empresa 1"
           class="img-fluid rounded-4"
         />
@@ -179,84 +179,198 @@
     </div>
   </div>
 
-  <div
-    id="color-professional-experience"
-    class="container-fluid py-5"
-    style="background-color: #97b8ff;"
-  >
+  <div class="container-fluid py-5" style="background-color: #97b8ff;">
     <div class="container">
-      <h2 id="h2-experience-in-it-support" class="text-black mb-4 fw-bold">
+      <h2 id="h2-experience-in-it-support" class="mb-4 fw-bold">
         Experiência em Suporte de T.I
       </h2>
 
-      <div class="row row-cols-1 row-cols-md-1 g-4 justify-content-center mt-1">
-        <!-- Item 1 -->
-        <div class="col-md-6">
-          <div
-            class="p-3 bg-dark text-white rounded-3 d-flex align-items-start"
-          >
-            <div>
-              <h4 id="skills-and-experience" class="mb-2 text-white fw-bold">
-                Gerenciamento de Infraestrutura
-              </h4>
-              <p id="skills-and-experience" class="text-white-50 mt-1">
-                Gerenciamento e instalação de impressoras locais e de rede.
-              </p>
-              <p id="skills-and-experience" class="text-white-50 mt-1">
-                Organização e manutenção de computadores e servidores.
-              </p>
-              <p id="skills-and-experience" class="text-white-50 mt-1">
-                Criação, configuração, implantação e manutenção de servidores
-                físicos e virtuais.
-              </p>
+      <div class="row g-4 justify-content-center mt-1">
+        <div class="container my-5">
+          <div class="row justify-content-center">
+            <!-- Lista de Navegação -->
+            <div class="col-md-4">
+              <div class="list-group" id="list-tab" role="tablist">
+                <a
+                  id="tablist-text"
+                  class="list-group-item list-group-item-action active fw-semibold fw-bold"
+                  id="list-infrastructure-list"
+                  data-bs-toggle="list"
+                  href="#list-infrastructure"
+                  role="tab"
+                  aria-controls="list-infrastructure"
+                >
+                  Gerenciamento de Infraestrutura
+                </a>
+                <a
+                  id="tablist-text"
+                  class="list-group-item list-group-item-action fw-bold"
+                  id="list-support-list"
+                  data-bs-toggle="list"
+                  href="#list-support"
+                  role="tab"
+                  aria-controls="list-support"
+                >
+                  Suporte e Soluções
+                </a>
+                <a
+                  id="tablist-text"
+                  class="list-group-item list-group-item-action fw-bold"
+                  id="list-security-list"
+                  data-bs-toggle="list"
+                  href="#list-security"
+                  role="tab"
+                  aria-controls="list-security"
+                >
+                  Segurança e Manutenção
+                </a>
+              </div>
+            </div>
+
+            <!-- Conteúdo das Abas -->
+            <div class="col-md-5">
+              <div class="tab-content" id="nav-tabContent">
+                <div
+                  class="tab-pane fade show active"
+                  id="list-infrastructure"
+                  role="tabpanel"
+                  aria-labelledby="list-infrastructure-list"
+                >
+                  <ul class="list-unstyled">
+                    <li id="tablist-text-list-unstyled" class="mt-1 fw-bolder">
+                      Gerenciamento e instalação de impressoras locais e de
+                      rede.
+                    </li>
+                    <li id="tablist-text-list-unstyled" class="mt-1 fw-bolder">
+                      Organização e manutenção de computadores e servidores.
+                    </li>
+                    <li id="tablist-text-list-unstyled" class="mt-1 fw-bolder">
+                      Criação, configuração, implantação e manutenção de
+                      servidores físicos e virtuais.
+                    </li>
+                  </ul>
+                </div>
+
+                <div
+                  class="tab-pane fade"
+                  id="list-support"
+                  role="tabpanel"
+                  aria-labelledby="list-support-list"
+                >
+                  <ul class="list-unstyled">
+                    <li id="tablist-text-list-unstyled" class="mt-1 fw-bolder">
+                      Suporte de TI abrangente em todas as unidades da
+                      organização.
+                    </li>
+                    <li id="tablist-text-list-unstyled" class="mt-1 fw-bolder">
+                      Atendimento de solicitações relacionadas ao sistema das
+                      unidades em produção.
+                    </li>
+                    <li id="tablist-text-list-unstyled" class="mt-1 fw-bolder">
+                      Desenvolvimento de soluções dentro do sistema para
+                      problemas diários e otimização de processos.
+                    </li>
+                  </ul>
+                </div>
+
+                <div
+                  class="tab-pane fade"
+                  id="list-security"
+                  role="tabpanel"
+                  aria-labelledby="list-security-list"
+                >
+                  <ul class="list-unstyled">
+                    <li id="tablist-text-list-unstyled" class="mt-1 fw-bolder">
+                      Realização de manutenções para garantir a segurança dos
+                      dados.
+                    </li>
+                    <li id="tablist-text-list-unstyled" class="mt-1 fw-bolder">
+                      Acompanhamento técnico de serviços de impressão, segurança
+                      de rede e link de internet.
+                    </li>
+                    <li id="tablist-text-list-unstyled" class="mt-1 fw-bolder">
+                      Elaboração de planilhas de controle e manuais de uso de
+                      sistemas e equipamentos.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid py-5" style="background-color: #0d0326;">
+    <div class="container">
+      <h2 class="mb-4 fw-bold text-white">
+        Experiência em Análise Administrativa
+      </h2>
+
+      <div class="row g-4 justify-content-center mt-1">
+        <!-- Análise de Dados e Tomada de Decisões -->
+        <div class="col-md-4">
+          <p>
+            <button
+              class="btn btn-primary"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseDataAnalysis"
+              aria-expanded="false"
+              aria-controls="collapseDataAnalysis"
+            >
+              Análise de Dados e Tomada de Decisões
+            </button>
+          </p>
+          <div class="collapse" id="collapseDataAnalysis">
+            <div class="card card-body">
+              Realizei análise de dados utilizando o Power BI para fornecer
+              insights e suporte à tomada de decisões.
             </div>
           </div>
         </div>
 
-        <!-- Item 2 -->
-        <div class="col-md-6">
-          <div
-            class="p-3 bg-dark text-white rounded-3 d-flex align-items-start"
-          >
-            <div>
-              <h4 id="skills-and-experience" class="mb-2 text-white fw-bold">
-                Suporte e Soluções
-              </h4>
-              <p id="skills-and-experience" class="text-white-50 mt-1">
-                Suporte de TI abrangente em todas as unidades da organização.
-              </p>
-              <p id="skills-and-experience" class="text-white-50 mt-1">
-                Atendimento de solicitações relacionadas ao sistema das unidades
-                em produção.
-              </p>
-              <p id="skills-and-experience" class="text-white-50 mt-1">
-                Desenvolvimento de soluções dentro do sistema para problemas
-                diários e otimização de processos.
-              </p>
+        <!-- Funções Administrativas -->
+        <div class="col-md-4">
+          <p>
+            <button
+              class="btn btn-primary"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseAdministrativeFunctions"
+              aria-expanded="false"
+              aria-controls="collapseAdministrativeFunctions"
+            >
+              Funções Administrativas
+            </button>
+          </p>
+          <div class="collapse" id="collapseAdministrativeFunctions">
+            <div class="card card-body">
+              Desempenhei funções administrativas, incluindo organização de
+              documentos, agendamento de reuniões e gestão de correspondências.
             </div>
           </div>
         </div>
 
-        <!-- Item 3 -->
-        <div class="col-md-6">
-          <div
-            class="p-3 bg-dark text-white rounded-3 d-flex align-items-start"
-          >
-            <div>
-              <h4 id="skills-and-experience" class="mb-2 text-white fw-bold">
-                Segurança e Manutenção
-              </h4>
-              <p id="skills-and-experience" class="text-white-50">
-                Realização de manutenções para garantir a segurança dos dados.
-              </p>
-              <p id="skills-and-experience" class="text-white-50">
-                Acompanhamento técnico de serviços de impressão, segurança de
-                rede e link de internet.
-              </p>
-              <p id="skills-and-experience" class="text-white-50">
-                Elaboração de planilhas de controle e manuais de uso de sistemas
-                e equipamentos.
-              </p>
+        <!-- Otimização de Processos -->
+        <div class="col-md-4">
+          <p>
+            <button
+              class="btn btn-primary"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseProcessOptimization"
+              aria-expanded="false"
+              aria-controls="collapseProcessOptimization"
+            >
+              Otimização de Processos
+            </button>
+          </p>
+          <div class="collapse" id="collapseProcessOptimization">
+            <div class="card card-body">
+              Colaborei com equipes para otimizar processos e procedimentos
+              administrativos.
             </div>
           </div>
         </div>
