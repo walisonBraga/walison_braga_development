@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dist/walison_braga_development/browser",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
